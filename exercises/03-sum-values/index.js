@@ -11,5 +11,7 @@ window.calculateSumListener = function calculateSumListener() {
 	var sum = num1 + num2;
 
 	// Display the sum in the output element
-	document.getElementById("resultNumber").value = sum;
+    document.getElementById("resultNumber").value = sum;
+    
+    //el valor a actualizar se hace en el .value, no en el innerHTML, esa es una particularidad que tienen los inputs
 };
